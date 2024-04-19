@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run API Tests
-        run: newman run "Restful Booker BVT.postman_collection.json" -e Production.postman_environment.json #--env-var "password=$PASSWORD"
+        run: newman run "Restful Booker BVT.postman_collection.json" -e Production.postman_environment.json # for env variables add: --env-var "password=$PASSWORD"
